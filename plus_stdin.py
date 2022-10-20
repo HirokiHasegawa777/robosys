@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2022 Hiroki Hasegawa
-# SPDX-License-Identifier: GPL-3.0
-
-import sys
+# SPDX-FileCopyrightText: 2022 Hiroki Hasegawa 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 
 
 def tonum(s):
