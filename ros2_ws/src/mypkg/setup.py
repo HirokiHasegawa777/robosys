@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='Hiroki Hasegawa',
     maintainer_email='s21C1094JW@s.chibakoudai.jp',
-    description='TODO: Package description',
+    description='a package for practice',
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
