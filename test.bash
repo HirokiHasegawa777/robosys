@@ -1,17 +1,13 @@
-#!/bin/bash -xv
+#!/usr/bin/python3
+# © 2022 Hiroki Hasegawa
 # SPDX-FileCopyrightText: 2022 Hiroki Hasegawa
 # SPDX-License-Identifier: BSD-3-Clause
+import sys
 
-ng () {
-      echo NG at Line $1
-      res=1
-}
-
-res=0
-
-### I/O TEST ###
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
-
-[ "$res" = 0 ] && echo OK
-exit $res
+ans = 0
+for line in sys.stdin:
+  try:
+    ans += int(line)
+  except:
+    ans += float(line)
+print(ans)
