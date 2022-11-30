@@ -11,7 +11,7 @@ ng (){
 res=0
 
 ### I/O TEST ###
-out=$(seq 5 | ./plus)
+out=$(seq 5 | ./sum_of_squares)
 [ "${out}" = 55 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
