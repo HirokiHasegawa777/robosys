@@ -4,10 +4,10 @@
 ## 本リポジトリの使用方法
 * ターミナル上で以下のコマンドを実行  
   ```
-$ git clone https://github.com/HirokiHasegawa777/robosys.git
+  $ git clone https://github.com/HirokiHasegawa777/robosys.git
   ```
   ```
-$ cd robosys
+  $ cd robosys
   ```
   その後は"使い方"を参考にコマンドを実行
 ## sum_of_squares
