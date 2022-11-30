@@ -16,12 +16,12 @@
 ### 使い方
 * 与えたれた自然数以下の数値をそれぞれ二乗し、全て足して表示します。  
   ```
-  seq [自然数] | ./sum_of_squares
+  $ seq [自然数] | ./sum_of_squares
   ```
 ### 出力例
-  seq 5 | ./sum_of_squares
-  出力
-  55
+  seq 5 | ./sum_of_squares  
+  出力  
+  55  
 ## 動作確認済み環境
 * Ubuntu 20.04.5 LTS
 * Python 3.7〜3.10
