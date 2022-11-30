@@ -19,7 +19,9 @@
   $ seq [自然数] | ./sum_of_squares
   ```
 ### 出力例
-  seq 5 | ./sum_of_squares  
+  入力
+  seq 5
+    
   出力  
   55  
 ## 動作確認済み環境
