@@ -1,7 +1,6 @@
 # robosys2022
 こちらは、千葉工業大学先進工学部未来ロボティクス学科2年4学期の講義で取り扱われているリポジトリになります。  
 本リポジトリには、講義で扱ったファイルを改良したsum_of_squaresが含まれます。
-[![test](https://github.com/HirokiHasegawa777/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/HirokiHasegawa777/robosys2022/actions/workflows/test.yml)
 ## 本リポジトリの使用方法
 * ターミナル上で以下のコマンドを実行  
   ```
@@ -12,6 +11,7 @@
   ```
   その後は"使い方"を参考にコマンドを実行
 ## sum_of_squares
+[![test](https://github.com/HirokiHasegawa777/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/HirokiHasegawa777/robosys2022/actions/workflows/test.yml)
 ### プログラム概要
 * 標準入力から数列を読み込んで、それぞれの値を二乗した値の合計を表示します。  
 ### 使い方
