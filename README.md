@@ -1,6 +1,7 @@
 # robosys2022
 こちらは、千葉工業大学先進工学部未来ロボティクス学科2年4学期の講義で取り扱われているリポジトリになります。  
 本リポジトリには、講義で扱ったファイルを改良したsum_of_squaresが含まれます。
+[![test](https://github.com/HirokiHasegawa777/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/HirokiHasegawa777/robosys2022/actions/workflows/test.yml)
 ## 本リポジトリの使用方法
 * ターミナル上で以下のコマンドを実行  
   ```
@@ -30,5 +31,5 @@
 ## LICENSE
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。  
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。  
-* [ryuichiueda/my_slides robotsys2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+  * [ryuichiueda/my_slides robotsys2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2022 Hiroki Hasegawa
