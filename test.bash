@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/bash
 # © 2022 Hiroki Hasegawa
 # SPDX-FileCopyrightText: 2022 Hiroki Hasegawa
 # SPDX-License-Identifier: BSD-3-Clause
@@ -15,13 +15,13 @@ out=$(seq 5 | ./sum_of_squares)
 [ "${out}" = 55 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-#out=$(echo あ | ./plus)
-#[ "$?" = 1 ] || ng ${LINENO}
-#[ "${out}" = "" ] || ng ${LINENO}
+out=$(echo あ | ./sum_of_squares)
+[ "$?" = 0 ] || ng ${LINENO}
+[ "${out}" = 0 ] || ng ${LINENO}
 
-#out=$(echo | ./plus)
-#[ "$?" = 1 ] || ng ${LINENO}
-#[ "${out}" = ""] || ng ${LINENO}
+out=$(echo | ./sum_of_squares)
+[ "$?" = 0 ] || ng ${LINENO}
+[ "${out}" = 0 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
